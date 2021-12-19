@@ -4,9 +4,22 @@
 
     <h3 class="mt-5">Hãy lựa chọn thứ bạn muốn tải</h3>
 
-    <button class="btn btn-danger btn-lg">Windows</button
-    ><button class="btn btn-warning btn-lg">Office</button
-    ><button class="btn btn-success btn-lg">Software</button>
+    <button class="btn btn-danger btn-lg">
+      <router-link to="/" class="nav-link text-white">Home</router-link>
+    </button>
+    <button class="btn btn-warning btn-lg">
+      <router-link to="/windows" class="nav-link text-white"
+        >Windows</router-link
+      >
+    </button>
+    <button class="btn btn-success btn-lg">
+      <router-link to="/office" class="nav-link text-white">Office</router-link>
+    </button>
+    <button class="btn btn-primary btn-lg">
+      <router-link to="/software" class="nav-link text-white"
+        >Software</router-link
+      >
+    </button>
   </div>
 </template>
 
