@@ -4,9 +4,6 @@
 
     <h3 class="mt-5">Hãy lựa chọn thứ bạn muốn tải</h3>
 
-    <button class="btn btn-danger btn-lg">
-      <router-link to="/" class="nav-link text-white">Home</router-link>
-    </button>
     <button class="btn btn-warning btn-lg">
       <router-link to="/windows" class="nav-link text-white"
         >Windows</router-link
