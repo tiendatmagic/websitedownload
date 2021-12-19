@@ -3,7 +3,7 @@
 </template>
 
 <script>
-export default { name: "Contact" };
+export default { name: "Liên hệ" };
 </script>
 
 <style></style>

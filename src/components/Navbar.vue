@@ -24,6 +24,12 @@
           <li class="nav-item">
             <router-link to="/office" class="nav-link">Office</router-link>
           </li>
+          <li class="nav-item">
+            <router-link to="/software" class="nav-link">Phần mềm</router-link>
+          </li>
+          <li class="nav-item">
+            <router-link to="/contact" class="nav-link">Liên hệ</router-link>
+          </li>
         </ul>
       </div>
     </div>
