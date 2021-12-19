@@ -4,19 +4,17 @@
 
     <h3 class="mt-5">Hãy lựa chọn thứ bạn muốn tải</h3>
 
-    <button class="btn btn-warning btn-lg">
-      <router-link to="/windows" class="nav-link text-white"
-        >Windows</router-link
-      >
-    </button>
-    <button class="btn btn-success btn-lg">
-      <router-link to="/office" class="nav-link text-white">Office</router-link>
-    </button>
-    <button class="btn btn-primary btn-lg">
-      <router-link to="/software" class="nav-link text-white"
-        >Software</router-link
-      >
-    </button>
+    <router-link to="/windows" class="text-white btn btn-warning btn-lg"
+      >Windows
+    </router-link>
+
+    <router-link to="/office" class="text-white btn btn-success btn-lg"
+      >Office
+    </router-link>
+
+    <router-link to="/software" class="text-white btn btn-primary btn-lg"
+      >Software
+    </router-link>
   </div>
 </template>
 
@@ -31,7 +29,7 @@ export default { name: "Trang chủ" };
     color: #f09;
     animation: show linear 1s forwards;
   }
-  button {
+  a.btn {
     margin: 10px;
   }
   @keyframes show {
