@@ -16,7 +16,7 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <router-link to="/" class="nav-link">Home</router-link>
+            <router-link to="/" class="nav-link">Trang chủ</router-link>
           </li>
           <li class="nav-item">
             <router-link to="/windows" class="nav-link">Windows</router-link>
