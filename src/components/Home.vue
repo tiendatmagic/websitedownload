@@ -1,9 +1,9 @@
 <template>
-  <h1>Home</h1>
+  <h1>Trang chủ</h1>
 </template>
 
 <script>
-export default { name: "Home" };
+export default { name: "Trang chủ" };
 </script>
 
 <style></style>

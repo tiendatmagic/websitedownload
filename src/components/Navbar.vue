@@ -1,7 +1,7 @@
 <template>
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">Navbar</a>
+      <a class="navbar-brand" href="#"></a>
       <button
         class="navbar-toggler"
         type="button"
@@ -16,12 +16,10 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <router-link to="/" class="nav-link active">Home</router-link>
+            <router-link to="/" class="nav-link">Home</router-link>
           </li>
           <li class="nav-item">
-            <router-link to="/windows" class="nav-link active"
-              >Windows</router-link
-            >
+            <router-link to="/windows" class="nav-link">Windows</router-link>
           </li>
           <li class="nav-item">
             <router-link to="/office" class="nav-link">Office</router-link>
@@ -36,4 +34,8 @@
 export default { name: "Navbar" };
 </script>
 
-<style></style>
+<style scoped>
+.router-link-exact-active {
+  color: red !important;
+}
+</style>
