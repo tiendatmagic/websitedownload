@@ -1,20 +1,22 @@
 <template>
-  <div class="container-fluid home overflow-hidden text-center">
-    <h1>Chào mừng bạn đã đến với trang web tải Windows Office của mình</h1>
+  <div class="container-fluid home-page overflow-hidden">
+    <h1 class="text-center">
+      Chào mừng bạn đã đến với trang web tải Windows Office của mình
+    </h1>
+    <div class="content text-center">
+      <h3 class="mt-5">Hãy lựa chọn thứ bạn muốn tải</h3>
+      <router-link to="/windows" class="text-white btn btn-warning btn-lg"
+        >Windows
+      </router-link>
 
-    <h3 class="mt-5">Hãy lựa chọn thứ bạn muốn tải</h3>
+      <router-link to="/office" class="text-white btn btn-success btn-lg"
+        >Office
+      </router-link>
 
-    <router-link to="/windows" class="text-white btn btn-warning btn-lg"
-      >Windows
-    </router-link>
-
-    <router-link to="/office" class="text-white btn btn-success btn-lg"
-      >Office
-    </router-link>
-
-    <router-link to="/software" class="text-white btn btn-primary btn-lg"
-      >Software
-    </router-link>
+      <router-link to="/software" class="text-white btn btn-primary btn-lg"
+        >Software
+      </router-link>
+    </div>
   </div>
 </template>
 
@@ -23,11 +25,11 @@ export default { name: "Trang chủ" };
 </script>
 
 <style scoped lang="scss">
-.home {
+.home-page {
   h1 {
     position: relative;
     color: #f09;
-    animation: show linear 1s forwards;
+    animation: show linear 0.5s forwards;
   }
   a.btn {
     margin: 10px;
