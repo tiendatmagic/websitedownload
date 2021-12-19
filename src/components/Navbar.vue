@@ -13,9 +13,7 @@
       >
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div>
-        <h2 class="mb-0">Tiến Đạt PC</h2>
-      </div>
+
       <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item">
