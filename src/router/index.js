@@ -4,6 +4,7 @@ import Home from '../components/Home.vue'
 import Windows from '../components/Windows.vue'
 import Office from '../components/Office.vue'
 import Contact from '../components/Contact.vue'
+import Software from '../components/Software.vue'
 import Error from '../components/Error.vue'
 
 const routes = [
@@ -25,6 +26,11 @@ const routes = [
     path: '/contact',
     component: Contact,
     name: Contact
+  },
+  {
+    path: '/software',
+    component: Software,
+    name: Software
   },
   {
     path: '/:pathMatch(.*)*',
