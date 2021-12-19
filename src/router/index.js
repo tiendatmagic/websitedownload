@@ -8,23 +8,35 @@ import Error from '../components/Error.vue'
 const routes = [
   {
     path: '/', component: Home,
+    name: Home
   },
   {
-    path: '/windows', component: Windows,
+    path: '/windows',
+    component: Windows,
+    name: Windows
   },
   {
     path: '/office',
-    component: Office
+    component: Office,
+    name: Office
   },
   {
     path: '/:pathMatch(.*)*',
-    component: Error
+    component: Error,
+    name: Error
   }
 ]
 
 const router = createRouter({
   history: createWebHistory(),
   routes
+})
+
+router.beforeEach((to, from, next) => {
+
+  document.title = to.name.name
+  next()
+
 })
 
 export default router
