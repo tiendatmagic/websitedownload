@@ -14,7 +14,7 @@
       </router-link>
 
       <router-link to="/software" class="text-white btn btn-primary btn-lg"
-        >Software
+        >Phần mềm
       </router-link>
     </div>
   </div>
