@@ -100,15 +100,6 @@
           <div class="card-item">
             <div class="d-flex justify-content-around">
               <a
-                :href="office.office2021.x32"
-                class="btn btn-primary btn-lg"
-                target="_blank"
-                data-bs-toggle="tooltip"
-                data-bs-placement="bottom"
-                title="Office 2021 x32"
-                >x32</a
-              >
-              <a
                 :href="office.office2021.x64"
                 class="btn btn-primary btn-lg"
                 target="_blank"
@@ -142,8 +133,8 @@ export default {
           x64: "https://tiendatmagic-my.sharepoint.com/:u:/g/personal/tiendatmagic_tiendatmagic_onmicrosoft_com/EXd3ju1E86NNo214CaEjQVwBY58lBCPN5pxIZtcDVwO2kg?e=VcgsOh",
         },
         office2019: {
-          x32: "",
-          x64: "",
+          x32: "https://tiendatmagic-my.sharepoint.com/:u:/g/personal/tiendatmagic_tiendatmagic_onmicrosoft_com/EYR3v5_626pJn19HR0L3SnMByuYBBW-CJgnrNWihhF5PnQ?e=G2s8eg",
+          x64: "https://tiendatmagic-my.sharepoint.com/:u:/g/personal/tiendatmagic_tiendatmagic_onmicrosoft_com/EfA4D67mRR1Nsu770yOacBcB9ZkvXKoLIN7fVTjbRkTkIw?e=U0ke8R",
         },
         office2021: {
           x64: "",
