@@ -13,7 +13,7 @@
 
                 <div class="d-flex justify-content-around">
                   <a
-                    href="https://tiendatmagic-my.sharepoint.com/:u:/g/personal/tiendatmagic_tiendatmagic_onmicrosoft_com/EXd3-vmNrl9BuPPdGiFM_c4B2mX8U6rOY_n6QuHuOmPt9Q?e=5MgtrN"
+                    :href="windows.windows11.x64"
                     class="btn btn-primary btn-lg"
                     target="_blank"
                     >x64</a
@@ -37,13 +37,13 @@
 
                 <div class="d-flex justify-content-around">
                   <a
-                    href="https://tiendatmagic-my.sharepoint.com/:u:/g/personal/tiendatmagic_tiendatmagic_onmicrosoft_com/EX46TZxxTU9GtPV_lkQWI-sBcssTBNbPljMSMvEnQvjSiA?e=RsqVBv"
+                    :href="windows.windows10.v21h2.x32"
                     class="btn btn-primary btn-lg"
                     target="_blank"
                     >x32</a
                   >
                   <a
-                    href="https://tiendatmagic-my.sharepoint.com/:u:/g/personal/tiendatmagic_tiendatmagic_onmicrosoft_com/Ec-5cmQre_lLm3P3vPPuaH4B4nlAKhM2wPX1NWjO5WjZaw?e=lc7QgL"
+                    :href="windows.windows10.v21h2.x64"
                     class="btn btn-primary btn-lg"
                     target="_blank"
                     >x64</a
@@ -56,10 +56,16 @@
                 <h5 class="text-center fw-bold">21H1</h5>
 
                 <div class="d-flex justify-content-around">
-                  <a href="" class="btn btn-primary btn-lg" target="_blank"
+                  <a
+                    :href="windows.windows10.v21h1.x32"
+                    class="btn btn-primary btn-lg"
+                    target="_blank"
                     >x32</a
                   >
-                  <a href="" class="btn btn-primary btn-lg" target="_blank"
+                  <a
+                    :href="windows.windows10.v21h1.x64"
+                    class="btn btn-primary btn-lg"
+                    target="_blank"
                     >x64</a
                   >
                 </div>
@@ -70,10 +76,16 @@
                 <h5 class="text-center fw-bold">20H2</h5>
 
                 <div class="d-flex justify-content-around">
-                  <a href="" class="btn btn-primary btn-lg" target="_blank"
+                  <a
+                    :href="windows.windows10.v20h2.x32"
+                    class="btn btn-primary btn-lg"
+                    target="_blank"
                     >x32</a
                   >
-                  <a href="" class="btn btn-primary btn-lg" target="_blank"
+                  <a
+                    :href="windows.windows10.v20h2.x64"
+                    class="btn btn-primary btn-lg"
+                    target="_blank"
                     >x64</a
                   >
                 </div>
@@ -84,10 +96,16 @@
                 <h5 class="text-center fw-bold">20H1</h5>
 
                 <div class="d-flex justify-content-around">
-                  <a href="" class="btn btn-primary btn-lg" target="_blank"
+                  <a
+                    :href="windows.windows10.v20h1.x32"
+                    class="btn btn-primary btn-lg"
+                    target="_blank"
                     >x32</a
                   >
-                  <a href="" class="btn btn-primary btn-lg" target="_blank"
+                  <a
+                    :href="windows.windows10.v20h1.x64"
+                    class="btn btn-primary btn-lg"
+                    target="_blank"
                     >x64</a
                   >
                 </div>
@@ -108,13 +126,13 @@
 
                 <div class="d-flex justify-content-around">
                   <a
-                    href="https://tiendatmagic-my.sharepoint.com/:u:/g/personal/tiendatmagic_tiendatmagic_onmicrosoft_com/EX46TZxxTU9GtPV_lkQWI-sBcssTBNbPljMSMvEnQvjSiA?e=RsqVBv"
+                    :href="windows.windows10ltsc.windows2016ltsb.x32"
                     class="btn btn-primary btn-lg"
                     target="_blank"
                     >x32</a
                   >
                   <a
-                    href="https://tiendatmagic-my.sharepoint.com/:u:/g/personal/tiendatmagic_tiendatmagic_onmicrosoft_com/Ec-5cmQre_lLm3P3vPPuaH4B4nlAKhM2wPX1NWjO5WjZaw?e=lc7QgL"
+                    :href="windows.windows10ltsc.windows2016ltsb.x64"
                     class="btn btn-primary btn-lg"
                     target="_blank"
                     >x64</a
@@ -128,13 +146,13 @@
 
                 <div class="d-flex justify-content-around">
                   <a
-                    href="https://tiendatmagic-my.sharepoint.com/:u:/g/personal/tiendatmagic_tiendatmagic_onmicrosoft_com/ETAz6faBTSlLt5QehMbBVswBamywPnyY-bmS2e2lO_h-2w?e=s8baCh"
+                    :href="windows.windows10ltsc.windows2019ltsc.x32"
                     class="btn btn-primary btn-lg"
                     target="_blank"
                     >x32</a
                   >
                   <a
-                    href="https://tiendatmagic-my.sharepoint.com/:u:/g/personal/tiendatmagic_tiendatmagic_onmicrosoft_com/EbmmAar_zb5Dq4elqOoIgR4BXWIqqx8HS-50GAbyx5zZVg?e=dmcnTY"
+                    :href="windows.windows10ltsc.windows2019ltsc.x64"
                     class="btn btn-primary btn-lg"
                     target="_blank"
                     >x64</a
@@ -151,13 +169,13 @@
           <div class="card-item">
             <div class="d-flex justify-content-around">
               <a
-                href="https://tiendatmagic-my.sharepoint.com/:u:/g/personal/tiendatmagic_tiendatmagic_onmicrosoft_com/EQYB_WKOMm1Eq4dDhqZceXkBf6-kxhb2R8baAIpAiMz2XA?e=8GuPUw"
+                :href="windows.windowsxp.x32"
                 class="btn btn-primary btn-lg"
                 target="_blank"
                 >x32</a
               >
               <a
-                href="https://tiendatmagic-my.sharepoint.com/:u:/g/personal/tiendatmagic_tiendatmagic_onmicrosoft_com/EYz3b0pZqqhKlwyIKLhkjpgBI90A0ppNolTse-p0z6iqZA?e=KjhDPa"
+                :href="windows.windowsxp.x64"
                 class="btn btn-primary btn-lg"
                 target="_blank"
                 >x64</a
@@ -169,8 +187,18 @@
           <h3 class="text-start">Windows Vista</h3>
           <div class="card-item">
             <div class="d-flex justify-content-around">
-              <a href="" class="btn btn-primary btn-lg" target="_blank">x32</a>
-              <a href="" class="btn btn-primary btn-lg" target="_blank">x64</a>
+              <a
+                :href="windows.windowsvista.x32"
+                class="btn btn-primary btn-lg"
+                target="_blank"
+                >x32</a
+              >
+              <a
+                :href="windows.windowsvista.x64"
+                class="btn btn-primary btn-lg"
+                target="_blank"
+                >x64</a
+              >
             </div>
           </div>
         </div>
@@ -179,13 +207,13 @@
           <div class="card-item">
             <div class="d-flex justify-content-around">
               <a
-                href="https://tiendatmagic-my.sharepoint.com/:u:/g/personal/tiendatmagic_tiendatmagic_onmicrosoft_com/Ebo-0B6lDllFj-XCiU9-IuoBCgB79Av_qRyzx7DKte0LHw?e=7GbPMo"
+                :href="windows.windows7.x32"
                 class="btn btn-primary btn-lg"
                 target="_blank"
                 >x32</a
               >
               <a
-                href="https://tiendatmagic-my.sharepoint.com/:u:/g/personal/tiendatmagic_tiendatmagic_onmicrosoft_com/EalcTyybvL5GlhunCwVw004BoH75pZEQXT4sC1qXgWz-sw?e=gwaRru"
+                :href="windows.windows7.x64"
                 class="btn btn-primary btn-lg"
                 target="_blank"
                 >x64</a
@@ -197,9 +225,14 @@
           <h3 class="text-start">Windows 8</h3>
           <div class="card-item">
             <div class="d-flex justify-content-around">
-              <a href="" class="btn btn-primary btn-lg" target="_blank">x32</a>
               <a
-                href="https://tiendatmagic-my.sharepoint.com/:u:/g/personal/tiendatmagic_tiendatmagic_onmicrosoft_com/EVPptBwK4qNIgjn5uLY2dxMBgdZSWARz2zI5KKtBSnt1Rg?e=nqsMuX"
+                :href="windows.windows8.x32"
+                class="btn btn-primary btn-lg"
+                target="_blank"
+                >x32</a
+              >
+              <a
+                :href="windows.windows8.x64"
                 class="btn btn-primary btn-lg"
                 target="_blank"
                 >x64</a
@@ -212,13 +245,13 @@
           <div class="card-item">
             <div class="d-flex justify-content-around">
               <a
-                href="https://tiendatmagic-my.sharepoint.com/:u:/g/personal/tiendatmagic_tiendatmagic_onmicrosoft_com/EeXoitkA_MpBmLlMBUd8f3sBr8mir5aHHP0vh_n7M2qbpQ?e=lAcrXv"
+                :href="windows.windows8_1.x32"
                 class="btn btn-primary btn-lg"
                 target="_blank"
                 >x32</a
               >
               <a
-                href="https://tiendatmagic-my.sharepoint.com/:u:/g/personal/tiendatmagic_tiendatmagic_onmicrosoft_com/EXjp5zjore5Au4HwfTqhROoB8jzciTAh7te-oV6-Rz63Nw?e=7o262h"
+                :href="windows.windows8_1.x64"
                 class="btn btn-primary btn-lg"
                 target="_blank"
                 >x64</a
@@ -233,11 +266,11 @@
           <div class="card-item">
             <div class="d-flex justify-content-around">
               <a
-                href="https://tiendatmagic-my.sharepoint.com/:u:/g/personal/tiendatmagic_tiendatmagic_onmicrosoft_com/Ef1AV-A7S4dPvYcckCbJjA0BQEKaZcD5L5_4NUlZQWWlzw?e=ymn3Ad"
+                :href="windows.windowsserver2012.x64"
                 class="btn btn-primary btn-lg"
                 target="_blank"
-                >x64</a
-              >
+                >x64
+              </a>
             </div>
           </div>
         </div>
@@ -246,7 +279,7 @@
           <div class="card-item">
             <div class="d-flex justify-content-around">
               <a
-                href="https://tiendatmagic-my.sharepoint.com/:u:/g/personal/tiendatmagic_tiendatmagic_onmicrosoft_com/EXQTmro9NJhAtHVABNtmP5kBIUi0rVTMcN3C7dweYrwW2g?e=Nj4ahL"
+                :href="windows.windowsserver2016.x64"
                 class="btn btn-primary btn-lg"
                 target="_blank"
                 >x64</a
@@ -259,7 +292,7 @@
           <div class="card-item">
             <div class="d-flex justify-content-around">
               <a
-                href="https://tiendatmagic-my.sharepoint.com/:u:/g/personal/tiendatmagic_tiendatmagic_onmicrosoft_com/ESJNpvJ3D7NPn5z8vVcKyREBnNPHnCSX3qI9bpPP8_ylqQ?e=7myY5A"
+                :href="windows.windowsserver2019.x64"
                 class="btn btn-primary btn-lg"
                 target="_blank"
                 >x64</a
@@ -272,7 +305,7 @@
           <div class="card-item">
             <div class="d-flex justify-content-around">
               <a
-                href="https://tiendatmagic-my.sharepoint.com/:u:/g/personal/tiendatmagic_tiendatmagic_onmicrosoft_com/ERJ4_d9gDwVEhQztnIFT-VkBduKjpBxM1Gt9EcGPu3uWPw?e=ugZUoa"
+                :href="windows.windowsserver2022.x64"
                 class="btn btn-primary btn-lg"
                 target="_blank"
                 >x64</a
@@ -286,7 +319,78 @@
 </template>
 
 <script>
-export default { name: "Windows" };
+export default {
+  name: "Windows",
+  data: function () {
+    return {
+      windows: {
+        windows11: {
+          x64: "https://tiendatmagic-my.sharepoint.com/:u:/g/personal/tiendatmagic_tiendatmagic_onmicrosoft_com/EXd3-vmNrl9BuPPdGiFM_c4B2mX8U6rOY_n6QuHuOmPt9Q?e=5MgtrN",
+        },
+        windows10: {
+          v21h2: {
+            x32: "https://tiendatmagic-my.sharepoint.com/:u:/g/personal/tiendatmagic_tiendatmagic_onmicrosoft_com/EX46TZxxTU9GtPV_lkQWI-sBcssTBNbPljMSMvEnQvjSiA?e=RsqVBv",
+            x64: "https://tiendatmagic-my.sharepoint.com/:u:/g/personal/tiendatmagic_tiendatmagic_onmicrosoft_com/Ec-5cmQre_lLm3P3vPPuaH4B4nlAKhM2wPX1NWjO5WjZaw?e=lc7QgL",
+          },
+          v21h1: {
+            x32: "",
+            x64: "",
+          },
+          v20h2: {
+            x32: "",
+            x64: "",
+          },
+          v20h1: {
+            x32: "",
+            x64: "",
+          },
+        },
+        windows10ltsc: {
+          windows2016ltsb: {
+            x32: "https://tiendatmagic-my.sharepoint.com/:u:/g/personal/tiendatmagic_tiendatmagic_onmicrosoft_com/EX46TZxxTU9GtPV_lkQWI-sBcssTBNbPljMSMvEnQvjSiA?e=RsqVBv",
+            x64: "https://tiendatmagic-my.sharepoint.com/:u:/g/personal/tiendatmagic_tiendatmagic_onmicrosoft_com/Ec-5cmQre_lLm3P3vPPuaH4B4nlAKhM2wPX1NWjO5WjZaw?e=lc7QgL",
+          },
+          windows2019ltsc: {
+            x32: "https://tiendatmagic-my.sharepoint.com/:u:/g/personal/tiendatmagic_tiendatmagic_onmicrosoft_com/ETAz6faBTSlLt5QehMbBVswBamywPnyY-bmS2e2lO_h-2w?e=s8baCh",
+            x64: "https://tiendatmagic-my.sharepoint.com/:u:/g/personal/tiendatmagic_tiendatmagic_onmicrosoft_com/EbmmAar_zb5Dq4elqOoIgR4BXWIqqx8HS-50GAbyx5zZVg?e=dmcnTY",
+          },
+        },
+        windowsxp: {
+          x32: "https://tiendatmagic-my.sharepoint.com/:u:/g/personal/tiendatmagic_tiendatmagic_onmicrosoft_com/EQYB_WKOMm1Eq4dDhqZceXkBf6-kxhb2R8baAIpAiMz2XA?e=8GuPUw",
+          x64: "https://tiendatmagic-my.sharepoint.com/:u:/g/personal/tiendatmagic_tiendatmagic_onmicrosoft_com/EYz3b0pZqqhKlwyIKLhkjpgBI90A0ppNolTse-p0z6iqZA?e=KjhDPa",
+        },
+        windowsvista: {
+          x32: "https://tiendatmagic-my.sharepoint.com/:u:/g/personal/tiendatmagic_tiendatmagic_onmicrosoft_com/EeNmRRMpxqhCh6AhU523fi0BIwgZb0Zyq6gG7xcVY1X4zQ?e=PI8gIl",
+          x64: "",
+        },
+        windows7: {
+          x32: "https://tiendatmagic-my.sharepoint.com/:u:/g/personal/tiendatmagic_tiendatmagic_onmicrosoft_com/Ebo-0B6lDllFj-XCiU9-IuoBCgB79Av_qRyzx7DKte0LHw?e=7GbPMo",
+          x64: "https://tiendatmagic-my.sharepoint.com/:u:/g/personal/tiendatmagic_tiendatmagic_onmicrosoft_com/EalcTyybvL5GlhunCwVw004BoH75pZEQXT4sC1qXgWz-sw?e=gwaRru",
+        },
+        windows8: {
+          x32: "https://tiendatmagic-my.sharepoint.com/:u:/g/personal/tiendatmagic_tiendatmagic_onmicrosoft_com/EVPptBwK4qNIgjn5uLY2dxMBgdZSWARz2zI5KKtBSnt1Rg?e=nqsMuX",
+          x64: "https://tiendatmagic-my.sharepoint.com/:u:/g/personal/tiendatmagic_tiendatmagic_onmicrosoft_com/EVPptBwK4qNIgjn5uLY2dxMBgdZSWARz2zI5KKtBSnt1Rg?e=xrMvWs",
+        },
+        windows8_1: {
+          x32: "https://tiendatmagic-my.sharepoint.com/:u:/g/personal/tiendatmagic_tiendatmagic_onmicrosoft_com/EeXoitkA_MpBmLlMBUd8f3sBr8mir5aHHP0vh_n7M2qbpQ?e=lAcrXv",
+          x64: "https://tiendatmagic-my.sharepoint.com/:u:/g/personal/tiendatmagic_tiendatmagic_onmicrosoft_com/EXjp5zjore5Au4HwfTqhROoB8jzciTAh7te-oV6-Rz63Nw?e=7o262h",
+        },
+        windowsserver2012: {
+          x64: "https://tiendatmagic-my.sharepoint.com/:u:/g/personal/tiendatmagic_tiendatmagic_onmicrosoft_com/Ef1AV-A7S4dPvYcckCbJjA0BQEKaZcD5L5_4NUlZQWWlzw?e=ymn3Ad",
+        },
+        windowsserver2016: {
+          x64: "https://tiendatmagic-my.sharepoint.com/:u:/g/personal/tiendatmagic_tiendatmagic_onmicrosoft_com/EXQTmro9NJhAtHVABNtmP5kBIUi0rVTMcN3C7dweYrwW2g?e=Nj4ahL",
+        },
+        windowsserver2019: {
+          x64: "https://tiendatmagic-my.sharepoint.com/:u:/g/personal/tiendatmagic_tiendatmagic_onmicrosoft_com/ESJNpvJ3D7NPn5z8vVcKyREBnNPHnCSX3qI9bpPP8_ylqQ?e=7myY5A",
+        },
+        windowsserver2022: {
+          x64: "https://tiendatmagic-my.sharepoint.com/:u:/g/personal/tiendatmagic_tiendatmagic_onmicrosoft_com/ERJ4_d9gDwVEhQztnIFT-VkBduKjpBxM1Gt9EcGPu3uWPw?e=ugZUoa",
+        },
+      },
+    };
+  },
+};
 </script>
 
 <style scoped lang="scss">
