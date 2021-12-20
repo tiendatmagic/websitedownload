@@ -5,7 +5,7 @@
     <div class="content">
       <div class="row m-2">
         <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-item">
-          <h2 class="text-start">Windows XP</h2>
+          <h3 class="text-start">Windows XP</h3>
           <div class="card-item">
             <div class="d-flex justify-content-around">
               <a
@@ -24,7 +24,7 @@
           </div>
         </div>
         <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-item">
-          <h2 class="text-start">Windows 7</h2>
+          <h3 class="text-start">Windows 7</h3>
           <div class="card-item">
             <div class="d-flex justify-content-around">
               <a
@@ -43,7 +43,7 @@
           </div>
         </div>
         <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-item">
-          <h2 class="text-start">Windows 8.1</h2>
+          <h3 class="text-start">Windows 8.1</h3>
           <div class="card-item">
             <div class="d-flex justify-content-around">
               <a
@@ -64,7 +64,7 @@
       </div>
       <div class="row m-2">
         <div class="col-12">
-          <h2 class="text-start">Windows 11</h2>
+          <h3 class="text-start">Windows 11</h3>
           <div class="row">
             <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-item">
               <div class="card-item">
@@ -88,7 +88,7 @@
       </div>
       <div class="row m-2">
         <div class="col-12">
-          <h2 class="text-start">Windows 10</h2>
+          <h3 class="text-start">Windows 10</h3>
           <div class="row">
             <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-item">
               <div class="card-item">
