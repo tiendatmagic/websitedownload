@@ -12,6 +12,9 @@
                 :href="office.office365.x64"
                 class="btn btn-primary btn-lg"
                 target="_blank"
+                data-bs-toggle="tooltip"
+                data-bs-placement="bottom"
+                title="Office 365 x64"
                 >x64</a
               >
             </div>
@@ -25,12 +28,18 @@
                 :href="office.office2013.x32"
                 class="btn btn-primary btn-lg"
                 target="_blank"
+                data-bs-toggle="tooltip"
+                data-bs-placement="bottom"
+                title="Office 2013 x32"
                 >x32</a
               >
               <a
                 :href="office.office2013.x64"
                 class="btn btn-primary btn-lg"
                 target="_blank"
+                data-bs-toggle="tooltip"
+                data-bs-placement="bottom"
+                title="Office 2013 x64"
                 >x64</a
               >
             </div>
@@ -44,12 +53,18 @@
                 :href="office.office2016.x32"
                 class="btn btn-primary btn-lg"
                 target="_blank"
+                data-bs-toggle="tooltip"
+                data-bs-placement="bottom"
+                title="Office 2016 x32"
                 >x32</a
               >
               <a
                 :href="office.office2016.x64"
                 class="btn btn-primary btn-lg"
                 target="_blank"
+                data-bs-toggle="tooltip"
+                data-bs-placement="bottom"
+                title="Office 2016 x64"
                 >x64</a
               >
             </div>
@@ -63,12 +78,18 @@
                 :href="office.office2019.x32"
                 class="btn btn-primary btn-lg"
                 target="_blank"
+                data-bs-toggle="tooltip"
+                data-bs-placement="bottom"
+                title="Office 2019 x32"
                 >x32</a
               >
               <a
                 :href="office.office2019.x64"
                 class="btn btn-primary btn-lg"
                 target="_blank"
+                data-bs-toggle="tooltip"
+                data-bs-placement="bottom"
+                title="Office 2019 x64"
                 >x64</a
               >
             </div>
@@ -82,12 +103,18 @@
                 :href="office.office2021.x32"
                 class="btn btn-primary btn-lg"
                 target="_blank"
+                data-bs-toggle="tooltip"
+                data-bs-placement="bottom"
+                title="Office 2021 x32"
                 >x32</a
               >
               <a
                 :href="office.office2021.x64"
                 class="btn btn-primary btn-lg"
                 target="_blank"
+                data-bs-toggle="tooltip"
+                data-bs-placement="bottom"
+                title="Office 2021 x64"
                 >x64</a
               >
             </div>
@@ -99,6 +126,8 @@
 </template>
 
 <script>
+import "bootstrap/dist/js/bootstrap.min.js";
+import { Tooltip } from "bootstrap/dist/js/bootstrap.esm.min.js";
 export default {
   name: "Office",
   data: function () {
@@ -124,6 +153,11 @@ export default {
         },
       },
     };
+  },
+  mounted() {
+    Array.from(
+      document.querySelectorAll('a[data-bs-toggle="tooltip"]')
+    ).forEach((tooltipNode) => new Tooltip(tooltipNode));
   },
 };
 </script>

@@ -16,6 +16,9 @@
                     :href="windows.windows11.x64"
                     class="btn btn-primary btn-lg"
                     target="_blank"
+                    data-bs-toggle="tooltip"
+                    data-bs-placement="bottom"
+                    title="Windows 11 x64"
                     >x64</a
                   >
                 </div>
@@ -40,12 +43,18 @@
                     :href="windows.windows10.v21h2.x32"
                     class="btn btn-primary btn-lg"
                     target="_blank"
+                    data-bs-toggle="tooltip"
+                    data-bs-placement="bottom"
+                    title="Windows 10 x32"
                     >x32</a
                   >
                   <a
                     :href="windows.windows10.v21h2.x64"
                     class="btn btn-primary btn-lg"
                     target="_blank"
+                    data-bs-toggle="tooltip"
+                    data-bs-placement="bottom"
+                    title="Windows 10 x64"
                     >x64</a
                   >
                 </div>
@@ -60,12 +69,18 @@
                     :href="windows.windows10.v21h1.x32"
                     class="btn btn-primary btn-lg"
                     target="_blank"
+                    data-bs-toggle="tooltip"
+                    data-bs-placement="bottom"
+                    title="Windows 10 21H1 x32"
                     >x32</a
                   >
                   <a
                     :href="windows.windows10.v21h1.x64"
                     class="btn btn-primary btn-lg"
                     target="_blank"
+                    data-bs-toggle="tooltip"
+                    data-bs-placement="bottom"
+                    title="Windows 10 21H1 x64"
                     >x64</a
                   >
                 </div>
@@ -80,12 +95,18 @@
                     :href="windows.windows10.v20h2.x32"
                     class="btn btn-primary btn-lg"
                     target="_blank"
+                    data-bs-toggle="tooltip"
+                    data-bs-placement="bottom"
+                    title="Windows 10 20H2 x32"
                     >x32</a
                   >
                   <a
                     :href="windows.windows10.v20h2.x64"
                     class="btn btn-primary btn-lg"
                     target="_blank"
+                    data-bs-toggle="tooltip"
+                    data-bs-placement="bottom"
+                    title="Windows 10 20H2 x64"
                     >x64</a
                   >
                 </div>
@@ -100,12 +121,18 @@
                     :href="windows.windows10.v20h1.x32"
                     class="btn btn-primary btn-lg"
                     target="_blank"
+                    data-bs-toggle="tooltip"
+                    data-bs-placement="bottom"
+                    title="Windows 10 20H1 x32"
                     >x32</a
                   >
                   <a
                     :href="windows.windows10.v20h1.x64"
                     class="btn btn-primary btn-lg"
                     target="_blank"
+                    data-bs-toggle="tooltip"
+                    data-bs-placement="bottom"
+                    title="Windows 10 20H1 x64"
                     >x64</a
                   >
                 </div>
@@ -129,12 +156,18 @@
                     :href="windows.windows10ltsc.windows2016ltsb.x32"
                     class="btn btn-primary btn-lg"
                     target="_blank"
+                    data-bs-toggle="tooltip"
+                    data-bs-placement="bottom"
+                    title="Windows 10 LTSC 2016 x32"
                     >x32</a
                   >
                   <a
                     :href="windows.windows10ltsc.windows2016ltsb.x64"
                     class="btn btn-primary btn-lg"
                     target="_blank"
+                    data-bs-toggle="tooltip"
+                    data-bs-placement="bottom"
+                    title="Windows 10 LTSC 2016 x64"
                     >x64</a
                   >
                 </div>
@@ -149,12 +182,18 @@
                     :href="windows.windows10ltsc.windows2019ltsc.x32"
                     class="btn btn-primary btn-lg"
                     target="_blank"
+                    data-bs-toggle="tooltip"
+                    data-bs-placement="bottom"
+                    title="Windows 10 LTSC 2019 x32"
                     >x32</a
                   >
                   <a
                     :href="windows.windows10ltsc.windows2019ltsc.x64"
                     class="btn btn-primary btn-lg"
                     target="_blank"
+                    data-bs-toggle="tooltip"
+                    data-bs-placement="bottom"
+                    title="Windows 10 LTSC 2019 x64"
                     >x64</a
                   >
                 </div>
@@ -172,12 +211,18 @@
                 :href="windows.windowsxp.x32"
                 class="btn btn-primary btn-lg"
                 target="_blank"
+                data-bs-toggle="tooltip"
+                data-bs-placement="bottom"
+                title="Windows XP x32"
                 >x32</a
               >
               <a
                 :href="windows.windowsxp.x64"
                 class="btn btn-primary btn-lg"
                 target="_blank"
+                data-bs-toggle="tooltip"
+                data-bs-placement="bottom"
+                title="Windows XP x64"
                 >x64</a
               >
             </div>
@@ -191,12 +236,18 @@
                 :href="windows.windowsvista.x32"
                 class="btn btn-primary btn-lg"
                 target="_blank"
+                data-bs-toggle="tooltip"
+                data-bs-placement="bottom"
+                title="Windows Vista x32"
                 >x32</a
               >
               <a
                 :href="windows.windowsvista.x64"
                 class="btn btn-primary btn-lg"
                 target="_blank"
+                data-bs-toggle="tooltip"
+                data-bs-placement="bottom"
+                title="Windows Vista x64"
                 >x64</a
               >
             </div>
@@ -210,12 +261,18 @@
                 :href="windows.windows7.x32"
                 class="btn btn-primary btn-lg"
                 target="_blank"
+                data-bs-toggle="tooltip"
+                data-bs-placement="bottom"
+                title="Windows 7 x32"
                 >x32</a
               >
               <a
                 :href="windows.windows7.x64"
                 class="btn btn-primary btn-lg"
                 target="_blank"
+                data-bs-toggle="tooltip"
+                data-bs-placement="bottom"
+                title="Windows 7 x64"
                 >x64</a
               >
             </div>
@@ -229,12 +286,18 @@
                 :href="windows.windows8.x32"
                 class="btn btn-primary btn-lg"
                 target="_blank"
+                data-bs-toggle="tooltip"
+                data-bs-placement="bottom"
+                title="Windows 8 x32"
                 >x32</a
               >
               <a
                 :href="windows.windows8.x64"
                 class="btn btn-primary btn-lg"
                 target="_blank"
+                data-bs-toggle="tooltip"
+                data-bs-placement="bottom"
+                title="Windows 8 x64"
                 >x64</a
               >
             </div>
@@ -248,12 +311,18 @@
                 :href="windows.windows8_1.x32"
                 class="btn btn-primary btn-lg"
                 target="_blank"
+                data-bs-toggle="tooltip"
+                data-bs-placement="bottom"
+                title="Windows 8.1 x32"
                 >x32</a
               >
               <a
                 :href="windows.windows8_1.x64"
                 class="btn btn-primary btn-lg"
                 target="_blank"
+                data-bs-toggle="tooltip"
+                data-bs-placement="bottom"
+                title="Windows 8.1 x64"
                 >x64</a
               >
             </div>
@@ -269,6 +338,9 @@
                 :href="windows.windowsserver2012.x64"
                 class="btn btn-primary btn-lg"
                 target="_blank"
+                data-bs-toggle="tooltip"
+                data-bs-placement="bottom"
+                title="Windows Server 2012 x64"
                 >x64
               </a>
             </div>
@@ -282,6 +354,9 @@
                 :href="windows.windowsserver2016.x64"
                 class="btn btn-primary btn-lg"
                 target="_blank"
+                data-bs-toggle="tooltip"
+                data-bs-placement="bottom"
+                title="Windows Server 2016 x64"
                 >x64</a
               >
             </div>
@@ -295,6 +370,9 @@
                 :href="windows.windowsserver2019.x64"
                 class="btn btn-primary btn-lg"
                 target="_blank"
+                data-bs-toggle="tooltip"
+                data-bs-placement="bottom"
+                title="Windows Server 2019 x64"
                 >x64</a
               >
             </div>
@@ -308,6 +386,9 @@
                 :href="windows.windowsserver2022.x64"
                 class="btn btn-primary btn-lg"
                 target="_blank"
+                data-bs-toggle="tooltip"
+                data-bs-placement="bottom"
+                title="Windows Server 2022 x64"
                 >x64</a
               >
             </div>
@@ -319,6 +400,8 @@
 </template>
 
 <script>
+import "bootstrap/dist/js/bootstrap.min.js";
+import { Tooltip } from "bootstrap/dist/js/bootstrap.esm.min.js";
 export default {
   name: "Windows",
   data: function () {
@@ -389,6 +472,11 @@ export default {
         },
       },
     };
+  },
+  mounted() {
+    Array.from(
+      document.querySelectorAll('a[data-bs-toggle="tooltip"]')
+    ).forEach((tooltipNode) => new Tooltip(tooltipNode));
   },
 };
 </script>
