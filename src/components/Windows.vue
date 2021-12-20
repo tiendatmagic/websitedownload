@@ -361,7 +361,7 @@ export default {
         },
         windowsvista: {
           x32: "https://tiendatmagic-my.sharepoint.com/:u:/g/personal/tiendatmagic_tiendatmagic_onmicrosoft_com/EeNmRRMpxqhCh6AhU523fi0BIwgZb0Zyq6gG7xcVY1X4zQ?e=PI8gIl",
-          x64: "",
+          x64: "https://tiendatmagic-my.sharepoint.com/:u:/g/personal/tiendatmagic_tiendatmagic_onmicrosoft_com/EVjoFnpSsxlHuTsjn4D5l3UBxuwCo1jq3bCWnU2uPBAiyg?e=z4atQT",
         },
         windows7: {
           x32: "https://tiendatmagic-my.sharepoint.com/:u:/g/personal/tiendatmagic_tiendatmagic_onmicrosoft_com/Ebo-0B6lDllFj-XCiU9-IuoBCgB79Av_qRyzx7DKte0LHw?e=7GbPMo",
