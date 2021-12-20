@@ -29,7 +29,7 @@ export default { name: "Trang chủ" };
   h1 {
     position: relative;
     color: #f09;
-    animation: show linear 0.5s forwards;
+    animation: show linear 0.7s forwards;
   }
   a.btn {
     margin: 10px;
