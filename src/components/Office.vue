@@ -117,8 +117,6 @@
 </template>
 
 <script>
-import "bootstrap/dist/js/bootstrap.min.js";
-import { Tooltip } from "bootstrap/dist/js/bootstrap.esm.min.js";
 export default {
   name: "Office",
   data: function () {
@@ -144,11 +142,6 @@ export default {
         },
       },
     };
-  },
-  mounted() {
-    Array.from(
-      document.querySelectorAll('a[data-bs-toggle="tooltip"]')
-    ).forEach((tooltipNode) => new Tooltip(tooltipNode));
   },
 };
 </script>
