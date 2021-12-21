@@ -30,28 +30,73 @@ export default {
       card: [
         {
           image: "msedge.png",
-          link: "https://c2rsetup.officeapps.live.com/c2r/downloadEdge.aspx?platform=Default&source=EdgeStablePage&Channel=Stable&language=vi",
+          link: "https://www.microsoft.com/vi-vn/edge",
           name: "Microsoft edge",
         },
         {
           image: "chrome.png",
-          link: "https://dl.google.com/tag/s/appguid%3D%7B8A69D345-D564-463C-AFF1-A69D9E530F96%7D%26iid%3D%7B7D150693-EC65-5CBE-0FE0-8DC44632D411%7D%26lang%3Dvi%26browser%3D4%26usagestats%3D1%26appname%3DGoogle%2520Chrome%26needsadmin%3Dprefers%26ap%3Dx64-stable-statsdef_1%26installdataindex%3Dempty/update2/installers/ChromeSetup.exe",
+          link: "https://www.google.com/intl/vi_vn/chrome/",
           name: "Google Chrome",
         },
         {
           image: "brave.png",
-          link: "https://referrals.brave.com/latest/BraveBrowserSetup.exe",
+          link: "https://brave.com/download/",
           name: "Brave",
         },
         {
           image: "firefox.png",
-          link: "https://cdn.stubdownloader.services.mozilla.com/builds/firefox-stub/vi/win/44a459140c42f697cf08ef52b20cace8254ec8980ab00a4781f386854b881e5c/Firefox%20Installer.exe",
+          link: "https://www.mozilla.org/vi/firefox/new/",
           name: "Firefox",
         },
         {
           image: "opera.png",
-          link: "https://net.geo.opera.com/opera/stable/windows?utm_tryagain=yes&utm_source=google-ads_via_opera_com&utm_medium=ba_ose&utm_campaign=%252300%2520-%2520WW%2520-%2520Search%2520-%2520EN%2520-%2520Branded_via_opera_com_https&utm_content=google%20cpc&utm_id=gclidCj0KCQiA8ICOBhDmARIsAEGI6o3F50f4YREP2qi-9jn4CCeH9G0_8nKWX1oIdwpShVoUd_96S1LNBwAaAlEOEALw_wcB&http_referrer=https%3A%2F%2Fwww.google.com%2F&utm_site=opera_com&&utm_lastpage=opera.com/&dl_token=22393230",
+          link: "https://www.opera.com/vi",
           name: "Opera",
+        },
+        {
+          image: "unikey.png",
+          link: "https://www.unikey.org/download.html",
+          name: "Unikey",
+        },
+        {
+          image: "winrar.png",
+          link: "https://www.win-rar.com/start.html?&L=0",
+          name: "Winrar",
+        },
+        {
+          image: "idm.png",
+          link: "https://www.internetdownloadmanager.com/",
+          name: "IDM",
+        },
+        {
+          image: "msteam.png",
+          link: "https://www.microsoft.com/vi-vn/microsoft-teams/download-app",
+          name: "Microsoft Team",
+        },
+        {
+          image: "teamview.png",
+          link: "https://www.teamviewer.com/vi/",
+          name: "Teamviewer",
+        },
+        {
+          image: "bluestack.png",
+          link: "https://www.bluestacks.com/download.html",
+          name: "Bluestack",
+        },
+        {
+          image: "nox.png",
+          link: "https://vn.bignox.com/",
+          name: "Nox Player",
+        },
+        {
+          image: "ldplayer.png",
+          link: "https://vn.ldplayer.net/",
+          name: "LD Player",
+        },
+        {
+          image: "zoom.png",
+          link: "https://zoom.us/download",
+          name: "Zoom",
         },
       ],
     };

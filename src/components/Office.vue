@@ -135,7 +135,7 @@ export default {
           x64: "https://tiendatmagic-my.sharepoint.com/:u:/g/personal/tiendatmagic_tiendatmagic_onmicrosoft_com/EfA4D67mRR1Nsu770yOacBcB9ZkvXKoLIN7fVTjbRkTkIw?e=U0ke8R",
         },
         office2021: {
-          x64: "",
+          x64: "https://tiendatmagic-my.sharepoint.com/:u:/g/personal/tiendatmagic_tiendatmagic_onmicrosoft_com/EQyN72FvKq1NrqWYVoktxqIBeTbspMaAmWZXQAKRzZ7kFg?e=aPJc42",
         },
         office365: {
           x64: "https://tiendatmagic-my.sharepoint.com/:u:/g/personal/tiendatmagic_tiendatmagic_onmicrosoft_com/EU0z_c7t83VBp3cmxgsp120B_PePu4gIT60eQSlSLp4UBA?e=7RfoCA",
