@@ -12,15 +12,12 @@
     </h4>
     <div class="container">
       <div class="row">
-        <div class="card-item">
-          <a
-            href="https://c2rsetup.officeapps.live.com/c2r/downloadEdge.aspx?platform=Default&source=EdgeStablePage&Channel=Stable&language=vi"
-            target="_blank"
-          >
-            <img src="../assets/msedge.png" alt="" />
+        <div class="card-item" v-for="cards in card" v-bind:key="cards">
+          <a :href="cards.link" target="_blank">
+            <img :src="cards.img" alt="" />
           </a>
         </div>
-        <div class="card-item">
+        <!-- <div class="card-item">
           <a
             href="https://dl.google.com/tag/s/appguid%3D%7B8A69D345-D564-463C-AFF1-A69D9E530F96%7D%26iid%3D%7B7D150693-EC65-5CBE-0FE0-8DC44632D411%7D%26lang%3Dvi%26browser%3D4%26usagestats%3D1%26appname%3DGoogle%2520Chrome%26needsadmin%3Dprefers%26ap%3Dx64-stable-statsdef_1%26installdataindex%3Dempty/update2/installers/ChromeSetup.exe"
           >
@@ -45,14 +42,27 @@
           >
             <img src="../assets/opera.png" alt="" />
           </a>
-        </div>
+        </div> -->
       </div>
     </div>
   </div>
 </template>
 
 <script>
-export default { name: "Phần mềm" };
+export default {
+  name: "Phần mềm",
+  data: function () {
+    return {
+      card: [
+        {
+          img: "",
+          link: "https://c2rsetup.officeapps.live.com/c2r/downloadEdge.aspx?platform=Default&source=EdgeStablePage&Channel=Stable&language=vi",
+          name: "Microsoft edge",
+        },
+      ],
+    };
+  },
+};
 </script>
 
 <style scoped lang="scss">
