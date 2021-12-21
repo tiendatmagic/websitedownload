@@ -3,8 +3,7 @@
     <h1 class="text-center">Các phần mềm thông dụng</h1>
     <hr />
     <p class="text-danger text-center fw-bold">
-      Lưu ý: Vì lý do bản quyền, nên mình sẽ không chia sẻ các tool crack
-      Windows hay Office nhé!
+      Lưu ý: Mình sẽ không chia sẻ các tool crack Windows hay Office nhé!
     </p>
     <h4 class="text-center fw-bold">
       Để đảm bảo các phần mềm thuộc phiên bản mới nhất, ở đây mình chỉ chia sẻ
@@ -37,6 +36,11 @@ export default {
           image: "chrome.png",
           link: "https://www.google.com/intl/vi_vn/chrome/",
           name: "Google Chrome",
+        },
+        {
+          image: "coccoc.png",
+          link: "https://coccoc.com/",
+          name: "Cốc Cốc",
         },
         {
           image: "brave.png",
@@ -97,6 +101,26 @@ export default {
           image: "zoom.png",
           link: "https://zoom.us/download",
           name: "Zoom",
+        },
+        {
+          image: "cpuz.png",
+          link: "https://www.cpuid.com/softwares/cpu-z.html",
+          name: "CPU-Z",
+        },
+        {
+          image: "ultraiso.png",
+          link: "https://www.ultraiso.com/",
+          name: "Ultraiso",
+        },
+        {
+          image: "drivereasy.png",
+          link: "https://www.drivereasy.com/",
+          name: "Drivereasy",
+        },
+        {
+          image: "easybcd.png",
+          link: "https://v90.x8top.net/tmp082020/cf/soft/2021/1/ba/4/easybcd_240237.exe",
+          name: "Easy BCD",
         },
       ],
     };
