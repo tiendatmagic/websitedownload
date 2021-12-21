@@ -5,15 +5,30 @@
     <p class="text-danger text-center fw-bold">
       Lưu ý: Mình sẽ không chia sẻ các tool crack Windows hay Office nhé!
     </p>
-    <h4 class="text-center fw-bold">
-      Để đảm bảo các phần mềm thuộc phiên bản mới nhất, ở đây mình chỉ chia sẻ
-      link các phần mềm hay dùng thôi nhé
-    </h4>
+
     <div class="container">
+      <h4 class="text-left fw-bold">
+        Để đảm bảo các phần mềm thuộc phiên bản mới nhất, ở đây mình chỉ chia sẻ
+        link các phần mềm hay dùng thôi nhé
+      </h4>
       <div class="row">
-        <div class="card-item" v-for="cards in card" v-bind:key="cards">
-          <a :href="cards.link" target="_blank">
-            <img :src="require(`../assets/${cards.image}`)" alt="" />
+        <div class="card-item" v-for="sws in sw" v-bind:key="sws">
+          <a :href="sws.link" target="_blank">
+            <img :src="require(`../assets/${sws.image}`)" alt="" />
+          </a>
+        </div>
+      </div>
+    </div>
+    <hr />
+
+    <div class="container">
+      <h4 class="text-left fw-bold">
+        Phần mềm Adobe 2021 Password: phanmemnet.com
+      </h4>
+      <div class="row">
+        <div class="card-item" v-for="adobes in adobe" v-bind:key="adobes">
+          <a :href="adobes.link" target="_blank">
+            <img :src="require(`../assets/adobe/${adobes.image}`)" alt="" />
           </a>
         </div>
       </div>
@@ -26,7 +41,7 @@ export default {
   name: "Phần mềm",
   data: function () {
     return {
-      card: [
+      sw: [
         {
           image: "msedge.png",
           link: "https://www.microsoft.com/vi-vn/edge",
@@ -121,6 +136,13 @@ export default {
           image: "easybcd.png",
           link: "https://v90.x8top.net/tmp082020/cf/soft/2021/1/ba/4/easybcd_240237.exe",
           name: "Easy BCD",
+        },
+      ],
+      adobe: [
+        {
+          image: "adobe-photoshop.png",
+          link: "https://www.microsoft.com/vi-vn/edge",
+          name: "Adobe Photoshop",
         },
       ],
     };
