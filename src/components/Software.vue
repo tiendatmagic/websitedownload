@@ -141,7 +141,37 @@ export default {
       adobe: [
         {
           image: "adobe-photoshop.png",
-          link: "https://www.microsoft.com/vi-vn/edge",
+          link: "",
+          name: "Adobe Photoshop",
+        },
+        {
+          image: "Adobe_Animate.png",
+          link: "",
+          name: "Adobe Photoshop",
+        },
+        {
+          image: "Adobe_InDesign_CC_icon.png",
+          link: "",
+          name: "Adobe Photoshop",
+        },
+        {
+          image: "Adobe_Premiere_Pro_CC_icon.png",
+          link: "",
+          name: "Adobe Photoshop",
+        },
+        {
+          image: "Adobe_XD_CC_icon.png",
+          link: "",
+          name: "Adobe Photoshop",
+        },
+        {
+          image: "adobe-illustrator-logo.png",
+          link: "",
+          name: "Adobe Photoshop",
+        },
+        {
+          image: "corel.png",
+          link: "",
           name: "Adobe Photoshop",
         },
       ],
