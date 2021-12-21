@@ -14,7 +14,7 @@
       <div class="row">
         <div class="card-item" v-for="cards in card" v-bind:key="cards">
           <a :href="cards.link" target="_blank">
-            <img :src="cards.img" alt="" />
+            <img :src="require(`../assets/${cards.image}`)" alt="" />
           </a>
         </div>
         <!-- <div class="card-item">
@@ -55,7 +55,7 @@ export default {
     return {
       card: [
         {
-          img: "",
+          image: "msedge.png",
           link: "https://c2rsetup.officeapps.live.com/c2r/downloadEdge.aspx?platform=Default&source=EdgeStablePage&Channel=Stable&language=vi",
           name: "Microsoft edge",
         },
