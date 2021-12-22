@@ -199,6 +199,32 @@
                 </div>
               </div>
             </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-item">
+              <div class="card-item">
+                <h5 class="text-center fw-bold">LTSC 2021</h5>
+
+                <div class="d-flex justify-content-around">
+                  <a
+                    :href="windows.windows10ltsc.windows2021ltsc.x32"
+                    class="btn btn-primary btn-lg"
+                    target="_blank"
+                    data-bs-toggle="tooltip"
+                    data-bs-placement="bottom"
+                    title="Windows 10 LTSC 2021 x32"
+                    >x32</a
+                  >
+                  <a
+                    :href="windows.windows10ltsc.windows2021ltsc.x64"
+                    class="btn btn-primary btn-lg"
+                    target="_blank"
+                    data-bs-toggle="tooltip"
+                    data-bs-placement="bottom"
+                    title="Windows 10 LTSC 2021 x64"
+                    >x64</a
+                  >
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -435,6 +461,10 @@ export default {
             x32: "https://tiendatmagic-my.sharepoint.com/:u:/g/personal/tiendatmagic_tiendatmagic_onmicrosoft_com/ETAz6faBTSlLt5QehMbBVswBamywPnyY-bmS2e2lO_h-2w?e=s8baCh",
             x64: "https://tiendatmagic-my.sharepoint.com/:u:/g/personal/tiendatmagic_tiendatmagic_onmicrosoft_com/EbmmAar_zb5Dq4elqOoIgR4BXWIqqx8HS-50GAbyx5zZVg?e=dmcnTY",
           },
+          windows2021ltsc: {
+            x32: "",
+            x64: "https://tiendatmagic-my.sharepoint.com/:u:/g/personal/tiendatmagic_tiendatmagic_onmicrosoft_com/Eaatj9yQsyFEt_CIdNPV3gwBGixzF54mhEGh4tdBYWMw8Q?e=DGtD5G",
+          },
         },
         windowsxp: {
           x32: "https://tiendatmagic-my.sharepoint.com/:u:/g/personal/tiendatmagic_tiendatmagic_onmicrosoft_com/EQYB_WKOMm1Eq4dDhqZceXkBf6-kxhb2R8baAIpAiMz2XA?e=8GuPUw",
@@ -471,7 +501,6 @@ export default {
       },
     };
   },
-
 };
 </script>
 
