@@ -462,7 +462,7 @@ export default {
             x64: "https://tiendatmagic-my.sharepoint.com/:u:/g/personal/tiendatmagic_tiendatmagic_onmicrosoft_com/EbmmAar_zb5Dq4elqOoIgR4BXWIqqx8HS-50GAbyx5zZVg?e=dmcnTY",
           },
           windows2021ltsc: {
-            x32: "",
+            x32: "https://tiendatmagic-my.sharepoint.com/:u:/g/personal/tiendatmagic_tiendatmagic_onmicrosoft_com/ETZ9LUzjkzVMjPTgkH23hdcBKadsxUyPAYiIDdbKE_48aA?e=dwvEcM",
             x64: "https://tiendatmagic-my.sharepoint.com/:u:/g/personal/tiendatmagic_tiendatmagic_onmicrosoft_com/Eaatj9yQsyFEt_CIdNPV3gwBGixzF54mhEGh4tdBYWMw8Q?e=DGtD5G",
           },
         },

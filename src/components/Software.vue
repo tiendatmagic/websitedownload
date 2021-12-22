@@ -27,7 +27,7 @@
       </h4>
       <div class="row">
         <div class="card-item" v-for="adobes in adobe" v-bind:key="adobes">
-          <a :href="adobes.link" target="_blank">
+          <a :href="adobes.link" target="_blank" :title="adobes.name">
             <img :src="require(`../assets/adobe/${adobes.image}`)" alt="" />
           </a>
         </div>
@@ -141,38 +141,63 @@ export default {
       adobe: [
         {
           image: "adobe-photoshop.png",
-          link: "",
+          link: "https://tiendatmagic-my.sharepoint.com/:u:/g/personal/tiendatmagic_tiendatmagic_onmicrosoft_com/ERlr9ZG1fJVAvjl_6Drjx0sBMEmf_I3A3DOuuLk3K8Ng5Q?e=K2h8tA",
           name: "Adobe Photoshop",
+        },
+        {
+          image: "Adobe_Photoshop_Lightroom_Classic_CC_icon.png",
+          link: "https://tiendatmagic-my.sharepoint.com/:u:/g/personal/tiendatmagic_tiendatmagic_onmicrosoft_com/EfXSyvPEylhOkDkmWdlhZVwBU7eH4XcQtgmetEFxHgglFQ?e=9Gl4iK",
+          name: "Adobe Photoshop Lightroom",
         },
         {
           image: "Adobe_Animate.png",
           link: "",
-          name: "Adobe Photoshop",
+          name: "Adobe Animate",
         },
         {
           image: "Adobe_InDesign_CC_icon.png",
-          link: "",
-          name: "Adobe Photoshop",
+          link: "https://tiendatmagic-my.sharepoint.com/:u:/g/personal/tiendatmagic_tiendatmagic_onmicrosoft_com/EeRk_J0WnLlEqtkEWlZogpQB0x4LdjRZPT3RN8qtUMzahA?e=1P5Yvd",
+          name: "Adobe InDesign",
+        },
+        {
+          image: "Adobe_Media_Encoder_Icon.png",
+          link: "https://tiendatmagic-my.sharepoint.com/:u:/g/personal/tiendatmagic_tiendatmagic_onmicrosoft_com/EcIvwOfLJf5FgR4T2XlkyW4BtMU4_fRGbj0gx0P2dKcNhw?e=PWKB5J",
+          name: "Adobe Media Encode",
         },
         {
           image: "Adobe_Premiere_Pro_CC_icon.png",
-          link: "",
-          name: "Adobe Photoshop",
+          link: "https://tiendatmagic-my.sharepoint.com/:u:/g/personal/tiendatmagic_tiendatmagic_onmicrosoft_com/EaM3QppeiSpInCia56MYdYsBQemnJ0voqpNJuLNEI_w-LA?e=8fjRHu",
+          name: "Adobe Premiere",
         },
         {
           image: "Adobe_XD_CC_icon.png",
-          link: "",
-          name: "Adobe Photoshop",
+          link: "https://tiendatmagic-my.sharepoint.com/:u:/g/personal/tiendatmagic_tiendatmagic_onmicrosoft_com/EYFVihMlVCpMv_b-pmxTerYBAvXQNNNXyVwySGLMzfO4jg?e=m6ipOd",
+          name: "Adobe XD",
         },
         {
           image: "adobe-illustrator-logo.png",
-          link: "",
-          name: "Adobe Photoshop",
+          link: "https://tiendatmagic-my.sharepoint.com/:u:/g/personal/tiendatmagic_tiendatmagic_onmicrosoft_com/EUGfoXOXFYhCupXt8J5-Yi8BHNcT0kORKgyqWp6X0a1MZw?e=RAmAdH",
+          name: "Adobe Illustrator",
+        },
+        {
+          image: "Adobe_InCopy_CC_icon.png",
+          link: "https://tiendatmagic-my.sharepoint.com/:u:/g/personal/tiendatmagic_tiendatmagic_onmicrosoft_com/EbXgU63zUrRPqUtnKrEn9uQB3ig9vHTRgSh2pc-ylldCpg?e=vbR5Nk",
+          name: "Adobe InCopy",
+        },
+        {
+          image: "Adobe_After_Effects_CC_icon.png",
+          link: "https://tiendatmagic-my.sharepoint.com/:u:/g/personal/tiendatmagic_tiendatmagic_onmicrosoft_com/ERzHjEsFXmVEnqfSqnH5-PwBy5JV0CDdGoWHB-WU6NxZ_w?e=9LgcEc",
+          name: "Adobe After Effects",
+        },
+        {
+          image: "adobe_audition.png",
+          link: "https://tiendatmagic-my.sharepoint.com/:u:/g/personal/tiendatmagic_tiendatmagic_onmicrosoft_com/Eah39D6tPMhBu4FbIDgak64Bt3SngDehqSeXdDzYRZDLQQ?e=2GA42b",
+          name: "Adobe Audition",
         },
         {
           image: "corel.png",
-          link: "",
-          name: "Adobe Photoshop",
+          link: "https://tiendatmagic-my.sharepoint.com/:u:/g/personal/tiendatmagic_tiendatmagic_onmicrosoft_com/EY0yTQGtBu1BsZB5s8l25HsBBMjImvL7lnX0AdY8OPXeNg?e=f1FAaK",
+          name: "CorelDRAW",
         },
       ],
     };
