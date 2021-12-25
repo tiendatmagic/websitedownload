@@ -138,6 +138,32 @@
                 </div>
               </div>
             </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-item">
+              <div class="card-item">
+                <h5 class="text-center fw-bold">19H2</h5>
+
+                <div class="d-flex justify-content-around">
+                  <a
+                    :href="windows.windows10.v19h2.x32"
+                    class="btn btn-primary btn-lg"
+                    target="_blank"
+                    data-bs-toggle="tooltip"
+                    data-bs-placement="bottom"
+                    title="Windows 10 20H1 x32"
+                    >x32</a
+                  >
+                  <a
+                    :href="windows.windows10.v19h2.x64"
+                    class="btn btn-primary btn-lg"
+                    target="_blank"
+                    data-bs-toggle="tooltip"
+                    data-bs-placement="bottom"
+                    title="Windows 10 20H1 x64"
+                    >x64</a
+                  >
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -440,16 +466,20 @@ export default {
             x64: "https://tiendatmagic-my.sharepoint.com/:u:/g/personal/tiendatmagic_tiendatmagic_onmicrosoft_com/Ec-5cmQre_lLm3P3vPPuaH4B4nlAKhM2wPX1NWjO5WjZaw?e=lc7QgL",
           },
           v21h1: {
-            x32: "",
-            x64: "",
+            x32: "https://tiendatmagic-my.sharepoint.com/:u:/g/personal/tiendatmagic_tiendatmagic_onmicrosoft_com/EQaPOGqQeZlJgmbl086JTjcBFWt8UQ_mWOvoy1sfQ-9g6w?e=delUhw",
+            x64: "https://tiendatmagic-my.sharepoint.com/:u:/g/personal/tiendatmagic_tiendatmagic_onmicrosoft_com/ERsr0QdXfqBHgL0PSB-zu5wBYlEfstAZce-zve_rayVISA?e=dhZXvp",
           },
           v20h2: {
-            x32: "",
-            x64: "",
+            x32: "https://tiendatmagic-my.sharepoint.com/:u:/g/personal/tiendatmagic_tiendatmagic_onmicrosoft_com/EYbo4PjkiCRCkga9I0H4GmkBxAc3WPcbcgtYWyosjZEokw?e=3cjMpG",
+            x64: "https://tiendatmagic-my.sharepoint.com/:u:/g/personal/tiendatmagic_tiendatmagic_onmicrosoft_com/Ed8lj4ZMEi1CoHFJX_Xgo5UBsrU5dgd8fBpdpWqLLS2Qdg?e=fESyau",
           },
           v20h1: {
-            x32: "",
-            x64: "",
+            x32: "https://tiendatmagic-my.sharepoint.com/:u:/g/personal/tiendatmagic_tiendatmagic_onmicrosoft_com/ERGeQi6uZ5ZEnFf2F5HmneIBoY51E8JM7JsnaA5NdlmM-Q?e=I9tW2g",
+            x64: "https://tiendatmagic-my.sharepoint.com/:u:/g/personal/tiendatmagic_tiendatmagic_onmicrosoft_com/ESVYv-1lQURMr9bsruvSvU8B9_1og8esSoF0tCb8-dpasQ?e=PqqVAN",
+          },
+          v19h2: {
+            x32: "https://tiendatmagic-my.sharepoint.com/:u:/g/personal/tiendatmagic_tiendatmagic_onmicrosoft_com/EchYs2z5BSVGgnjq-0U2y1YB4SzRFpYtpXMxQtX1G0kDaw?e=kOZPiN",
+            x64: "https://tiendatmagic-my.sharepoint.com/:u:/g/personal/tiendatmagic_tiendatmagic_onmicrosoft_com/EcRH45QTc8lKsGTMLR7xNB0BLlYHoVAQ98EjvnTmAC6Zog?e=gFlecE",
           },
         },
         windows10ltsc: {
